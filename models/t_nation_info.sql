@@ -1,0 +1,1 @@
+select * from test_db.test_Schema.t_nation
