@@ -8,3 +8,5 @@ sources:
       - name: customers
       - name: orders
       - name: payment
+      - name: t_ticket
+      - name: s_emp      
