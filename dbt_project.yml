@@ -40,3 +40,7 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+      +pre-hook:
+        - "insert into test_db.test_Schema.t_audit(audit_Type,model_name) values('Start','{{ this }}')"
+      +post-hook:
+        - "insert into test_db.test_Schema.t_audit(audit_Type,model_name) values('end','{{ this }}')"  
