@@ -1,0 +1,12 @@
+sources:
+  - name: s1
+    database: test_db
+    schema : test_schema
+    tables:
+      - name: t_nation
+      - name: t_customer
+      - name: customers
+      - name: orders
+      - name: payment
+      - name: t_ticket
+      - name: s_emp      
